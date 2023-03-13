@@ -3,3 +3,75 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #2F2E41;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.main-section {
+    padding: 100px 0;
+}
+
+header, footer {
+    background-color: #6C63FF;
+}
+header {
+    height: 80px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.login-btn {
+    width: 120px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: transparent;
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.card {
+    border: 2px solid #E7E7E7;
+    border-radius: 5px;
+    width: 370px;
+    padding: 46px 20px;
+}
+
+.card h3 {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card img {
+    margin: 40px 0 36px;
+}
+
+footer a {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 9px 15px;
+}
